@@ -27,5 +27,6 @@ class GradeBookTest {
         // then
         assertEquals(gradeBook.getGradeList().size(),1);
         assertEquals(gradeBook.getGradeList().get(0).getGrade(),5);
+        assertEquals(gradeBook.getGradeList().get(0).getSubject(),"Matematyka");
     }
 }

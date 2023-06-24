@@ -1,7 +1,12 @@
-package com.studia;
+package com.studia.school;
 
 
+import com.studia.student.Student;
 import java.util.*;
+
+/**
+ * Klasa reprezentująca obiekt szkoły.
+ */
 public class School {
 
     private String name;

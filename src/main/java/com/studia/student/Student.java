@@ -1,5 +1,8 @@
-package com.studia;
+package com.studia.student;
 
+/**
+ * Klasa reprezentująca obiekt ucznia i przechowująca jego dane.
+ */
 public class Student {
 
     private String name;

@@ -1,9 +1,13 @@
-package com.studia;
+package com.studia.student;
 
+import com.studia.student.Student;
+
+/**
+ * Klasa reprezentująca obiekt oceny.
+ */
 public class Grade {
 
     private String subject;
-    private Student student;
     private Integer grade;
 
     public Grade() {
@@ -15,14 +19,6 @@ public class Grade {
 
     public void setSubject(String subject) {
         this.subject = subject;
-    }
-
-    public Student getStudent() {
-        return student;
-    }
-
-    public void setStudent(Student student) {
-        this.student = student;
     }
 
     public Integer getGrade() {

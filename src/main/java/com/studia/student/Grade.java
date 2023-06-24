@@ -7,7 +7,13 @@ import com.studia.student.Student;
  */
 public class Grade {
 
+    /**
+     * Pole opicujące przedmiot.
+     */
     private String subject;
+    /**
+     * Pole opisujące ocene.
+     */
     private Integer grade;
 
     public Grade() {

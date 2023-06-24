@@ -9,8 +9,13 @@ import org.apache.log4j.Logger;
 public class GradeBook {
 
     final static Logger logger = Logger.getLogger(Logger.class);
-
+    /**
+     * Pole zawierajace obiekt ucznia.
+     */
     private Student student;
+    /**
+     * Lista ocen ucznia.
+     */
     private List<Grade> gradeList;
 
     public GradeBook() {

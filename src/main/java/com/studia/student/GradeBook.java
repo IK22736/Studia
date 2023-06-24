@@ -51,5 +51,6 @@ public class GradeBook {
         grades.add(grade);
         gradeBook.setGradeList(grades);
         gradeBook.setGradeList(new ArrayList<>());
+        gradeBook.setGradeList(new ArrayList<>());
     }
 }

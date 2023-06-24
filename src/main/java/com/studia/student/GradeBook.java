@@ -50,5 +50,6 @@ public class GradeBook {
         List<Grade> grades = gradeBook.getGradeList();
         grades.add(grade);
         gradeBook.setGradeList(grades);
+        gradeBook.setGradeList(new ArrayList<>());
     }
 }
